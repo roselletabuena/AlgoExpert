@@ -1,3 +1,4 @@
+#  O(nlog(n)) time | O(1) space
 def classPhotos(redShirtsHeights, blueShirtHeights):
     redShirtsHeights.sort(reverse=True)
     blueShirtHeights.sort(reverse=True)
